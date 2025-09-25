@@ -42,7 +42,7 @@ const Navbar = () => {
 
             {/* Dropdown Menu */}
             {toggle && (
-              <div className="absolute right-0 top-14 bg-gray-500 text-white rounded-md shadow-lg w-40 flex flex-col">
+              <div className="absolute right-0 top-14 bg-gray-500 text-white rounded-md shadow-lg w-40 flex flex-col z-1">
                 <Link to="/profile" className="px-4 py-2 text-left hover:bg-gray-600">
                   Profile
                 </Link>
